@@ -75,7 +75,7 @@ public class Dictionary1 extends JFrame
 			public void actionPerformed(ActionEvent arg0) {
 				
 				String mytext_tosearch = txt.getText().trim().toUpperCase();
-				File f = new File("dictionary2.txt");
+				File f = new File("dictionary.txt");
 				Scanner sc = null;
 				try
 				{
